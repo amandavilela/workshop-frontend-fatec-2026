@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <!-- Faz a página se adaptar à largura do celular -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amanda · Desenvolvedora Frontend</title>
+  <meta name="description" content="Consultora frontend especializada em performance web e acessibilidade.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho: título e apresentação -->
+  <header class="intro">
+    <img class="intro__photo" src="profile.webp" alt="Foto de perfil de Amanda" width="120" height="120">
+    <div class="intro__text">
+      <h1>Amanda Vilela</h1>
+      <p class="intro__role">Desenvolvedora frontend</p>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal da página -->
+  <main>
+
+    <section class="about" aria-labelledby="sobre-titulo">
+      <h2 id="sobre-titulo">Sobre mim</h2>
+      <p>
+        Especialista em Frontend com mais de 14 anos de experiência em startups, agências e plataformas de grande escala. Hoje sou consultora independente e ajudo empresas a deixarem seus sites mais rápidos, acessíveis e fáceis
+        de encontrar.
+      </p>
+    </section>
+
+    <section class="projects" aria-labelledby="projetos-titulo">
+      <h2 id="projetos-titulo">Últimos projetos</h2>
+
+      <ul class="projects__list">
+        <li>
+          <article class="card">
+            <p class="card__tag">Artigo</p>
+            <h3><a class="card__link" href="https://amandavilela.me/blog/declarative-partial-updates-hands-on-test/">Less JS, more platform: A hands-on test of Declarative Partial Updates</a></h3>
+            <p class="card__desc">
+              Um teste prático do Declarative Partial Updates do Chrome: streaming de
+              HTML fora de ordem, setHTML/streamHTML e onde isso ainda quebra.
+            </p>
+          </article>
+        </li>
+        <li>
+          <article class="card">
+            <p class="card__tag">Artigo</p>
+            <h3><a class="card__link" href="https://amandavilela.me/blog/chrome-devtools-mcp-core-web-vitals/">Chrome DevTools MCP: debugging Core Web Vitals and performance</a></h3>
+            <p class="card__desc">
+              Um passo a passo usando o Chrome DevTools MCP com Claude para
+              identificar e resolver problemas de Core Web Vitals e performance.
+            </p>
+          </article>
+        </li>
+        <li>
+          <article class="card">
+            <p class="card__tag">Artigo</p>
+            <h3><a class="card__link" href="https://amandavilela.me/blog/how-core-web-vitals-can-impact-business-revenue/">How Core Web Vitals can impact your business revenue</a></h3>
+            <p class="card__desc">
+              Como otimizar métricas de Core Web Vitals pode melhorar conversão
+              e recuperar receita para o negócio.
+            </p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Rodapé: links para redes profissionais -->
+  <footer class="links" aria-labelledby="links-titulo">
+    <h2 id="links-titulo">Me encontre por aí</h2>
+    <ul class="links__list">
+      <li><a href="https://br.linkedin.com/in/amanda-vilela">LinkedIn</a></li>
+      <li><a href="https://github.com/amandavilela">GitHub</a></li>
+      <li><a href="http://codepen.io/amandavilela/">CodePen</a></li>
+      <li><a href="https://speakerdeck.com/amandavilela">Speakerdeck</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
